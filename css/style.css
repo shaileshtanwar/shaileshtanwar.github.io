@@ -1,0 +1,14 @@
+html{
+	background:url(../images/index.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.box{
+	width: 400px;
+	height: 400px;
+	background:rgba(0,0,0,0.4);
+	padding: 40px;
+	color: white;
+}
