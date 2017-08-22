@@ -1,14 +1,58 @@
-html{
+/*html{
 	background:url(../images/index.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}*/
+div{
+
+	border-radius: 3px;
 }
 .box{
-	width: 400px;
-	height: 400px;
-	background:rgba(0,0,0,0.4);
-	padding: 40px;
+	background:#F3F3F3;
+	width:80%;
+	height:100%;
+	padding-top:40px;
+	padding-bottom:20px;
+	color: #304256;
+	margin: 0 auto;
+	border-radius: 3px;
+}
+.inner
+{
+	padding-left: 60px;
+}
+.name{
+	font-family: Impact;
+	font-size: 40px;
+}
+
+.links{
+	display: inline-block;
+	background:#304256;
+	padding: 10px;
 	color: white;
+	margin-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.text
+{
+	display: inline;
+	padding: 10px;
+	margin-left: 0 auto;
+}
+
+.aboutme
+{
+	display: inline-block;
+	background:rgba(255,255,255, 0.5);
+	color: black;	
+	width: 100%;
+	height:50px;
+	margin-top:10px;
+	font-family: ;
+	font-size: 20px;
 }
