@@ -101,4 +101,44 @@ div
 	width:163px;
 	height:206px;
 	border-radius: 9px;
+	float: left;
+}
+.social-icon
+{
+	font-size: 30px;
+	margin: 10px;
+	padding: 5px;
+}
+
+#fb
+{
+	color:#3B579D;
+}
+
+#twitter
+{
+	color:#1DA1F2;
+}
+}
+
+#git
+{
+	color:black;
+}
+
+#linkedin
+{
+	color:#007BB6;
+}
+
+a
+{
+	text-decoration: none;
+}
+#intropara
+{
+	display: inline-block;
+	width: 500px;
+	height: 206px;
+	margin-left: 20px;
 }
