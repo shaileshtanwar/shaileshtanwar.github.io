@@ -1,8 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Expletus+Sans);
-html
-{
-	background-color: black;
-}
 div
 {
 	border-radius: 3px;
@@ -13,11 +9,45 @@ div
 	width:80%;
 	height:100%;
 	padding-top:40px;
-	padding-bottom:20px;
 	color: #304256;
 	margin: 0 auto;
-	border-radius: 3px;
+	border-radius: 10px;
 }
+
+/*shadow effect*/
+.effect8
+{
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.effect8:before, .effect8:after
+{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.effect8:after
+{
+    right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+
 .inner
 {
 	padding-left: 60px;
@@ -80,7 +110,7 @@ div
 {
 	margin-top:25px;
 	margin-left:300px;
-	width: 720px;
+	width: 708px;
 	height:2px;
 	background-color: #46AAC4;
 
@@ -177,14 +207,23 @@ progress[value]::-webkit-progress-value {
 
 li {
 
-	width: 50%;
+	width: 300px;
 	float: left;
 	list-style-type: none;
-	
-	padding-right: 5.3333333%;
+	margin-bottom:10px;
+	margin-right:20px;
 }
 
 p
 {
 	margin:1px;
+}
+
+.restofcv
+{
+	display: inline-block;;
+	background:#304256; 
+	color:white;
+	width: 100%;
+	border-radius: 10px;
 }
