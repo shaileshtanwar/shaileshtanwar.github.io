@@ -89,6 +89,7 @@ div
 	width:100%;
 	display: inline-block;
 	margin-bottom: 10px;
+	margin-top: 10px;
 }
 #parallelogram 
 {
@@ -110,7 +111,7 @@ div
 {
 	margin-top:25px;
 	margin-left:300px;
-	width: 708px;
+	width: 688px;
 	height:2px;
 	background-color: #46AAC4;
 
@@ -227,3 +228,23 @@ p
 	width: 100%;
 	border-radius: 10px;
 }
+
+.roundbox
+{
+	float: left;
+	width: 120px;
+	height: 15px;
+	background-color: #339ADD;
+	padding: 10px;
+	padding-right: 30px;
+	color: white;
+	margin-top: 10px;
+	font-size: 19px;
+	border-radius: 2px;
+}
+
+.bullet
+{
+	list-style-type: circle;
+}
+
