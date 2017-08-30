@@ -167,6 +167,10 @@ a
 {
 	text-decoration: none;
 }
+.paper
+{
+	color: white;
+}
 #intropara
 {
 	display: inline-block;
@@ -240,11 +244,26 @@ p
 	color: white;
 	margin-top: 10px;
 	font-size: 19px;
-	border-radius: 2px;
+	border-radius: 8px;
 }
 
 .bullet
 {
 	list-style-type: circle;
+	width:50%;
 }
 
+.duration
+{
+	display: inline-block;
+	background: #339ADD;
+	margin-left: 20px;
+	padding: 7px;
+}
+
+.infolist
+{
+	padding-left: 20px;
+	padding-right: 50px; 
+
+}
