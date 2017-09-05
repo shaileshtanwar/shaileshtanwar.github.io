@@ -250,7 +250,7 @@ p
 .bullet
 {
 	list-style-type: circle;
-	width:50%;
+	width:100%;
 }
 
 .duration
@@ -264,6 +264,13 @@ p
 .infolist
 {
 	padding-left: 20px;
-	padding-right: 50px; 
-
+	padding-right: 100px; 
 }
+
+.part1
+{
+	padding-right: 100px;
+	display: inline-block;
+	width:150px; 
+}
+
