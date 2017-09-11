@@ -4,6 +4,8 @@
  	<title>CV</title>
  	<link rel="stylesheet" type="text/css" href="css/style.css">
  	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 	<script src="js/myjs.js"></script>
+ 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
  </head>
  <body> 
  	<div class="box effect8">
@@ -13,23 +15,24 @@
 	 		Computer Science Engineer NMIMS, MPSTME, Mumbai<br>
 	 		<div class="links">
 	 			<div class="text">
-	 				ABOUT
+	 				<a href="#about" >ABOUT</a>
 	 			</div>
 	 			<div class="text">
-	 				SKILLS
+	 				<a href="#skill">SKILLS</a>
 	 			</div> 
 	 			<div class="text">
-	 				EXPERINCE
+	 				<a href="#exp">EXPERINCE</a>
 	 			</div> 
 	 			<div class="text">
-	 				EDUCATION
+	 				<a href="#edu">EDUCATION</a>
 	 			</div> 
 	 			<div class="text" >
-	 				CONTACT
+	 				<button onclick="showDiv()">CONTACT
+	 				</button>
 	 			</div>   
 	 		</div>
 	 	</div>
-	 		<div class = "aboutme">
+	 		<div class = "aboutme" id="about">
 	 			<div class="inner">
 	 				<div class="sidebyside">
 		 				<div id="parallelogram" >
@@ -40,9 +43,11 @@
 		 			</div>
 		 			<div class="restab">
 		 				<div class="perinfo">
+		 						<div id="line"></div>
 		 						Birth 10-06-1995<br>
 		 						Phone 7666728886<br>
 		 						Mail shaileshtanwar@gmail.com<br>
+		 						<div id="line1"></div>
 		 					<div class="social-icon">
 		 						<a href="https://www.facebook.com/shaileshtanwar" target="_blank">
 				 					<i class="fa fa-facebook-square" id="fb" aria-hidden="true"></i>
@@ -51,7 +56,7 @@
 				 					<i class="fa fa-twitter-square" id="twitter" aria-hidden="true"></i>
 				 				</a>
 				 				<a href="https://github.com/shaileshtanwar" target="_blank">
-				 					<i class="fa fa-github-square" id="git" aria-hidden="true"></i>
+				 					<i class="fa fa-github-square git"  aria-hidden="true"></i>
 				 				</a>
 				 				<a href="https://www.linkedin.com/in/shailesh-tanwar-29204b77/" target="_blank">
 				 					<i class="fa fa-linkedin-square" id="linkedin" aria-hidden="true"></i>
@@ -66,7 +71,7 @@
 		 				</div>
 		 			</div>
 	 			</div>
-	 			<div class="skills">
+	 			<div class="skills" id="skill">
 	 				<div class="inner">
 	 					<div class="sidebyside">
 			 				<div id="parallelogram" >
@@ -144,7 +149,7 @@
 	 		<div class ="restofcv">
 	 			<div class="inner">
 	 				<div class="sidebyside">
-	 					<div class="roundbox">
+	 					<div class="roundbox" id="exp">
 	 						EXPERIENCE
 	 					</div>
 	 					<div class="hr">
@@ -225,7 +230,7 @@
 	 					A bank management system using which account can be created and managed.
 	 				</div>
 	 				<div class="sidebyside">
-	 					<div class="roundbox">
+	 					<div class="roundbox" id="edu">
 	 						EDUCATION
 	 					</div>
 	 					<div class="hr">

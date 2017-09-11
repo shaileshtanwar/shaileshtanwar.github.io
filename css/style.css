@@ -3,6 +3,11 @@ div
 {
 	border-radius: 3px;
 }
+
+body
+{
+	font-family:'Lato';
+}
 .box
 {
 	background:#F3F3F3;
@@ -12,6 +17,7 @@ div
 	color: #304256;
 	margin: 0 auto;
 	border-radius: 10px;
+	padding-bottom: 40px; 
 }
 
 /*shadow effect*/
@@ -114,7 +120,6 @@ div
 	width: 688px;
 	height:2px;
 	background-color: #46AAC4;
-
 }
 
 .perinfo
@@ -153,9 +158,9 @@ div
 }
 }
 
-#git
+.git
 {
-	color:black;
+	color:#000000;
 }
 
 #linkedin
@@ -166,6 +171,7 @@ div
 a
 {
 	text-decoration: none;
+	color: inherit;
 }
 .paper
 {
@@ -177,6 +183,7 @@ a
 	width: 500px;
 	height: 206px;
 	margin-left: 20px;
+	font-size: 20px;
 }
 
 .progressbars
@@ -230,7 +237,6 @@ p
 	background:#304256; 
 	color:white;
 	width: 100%;
-	border-radius: 10px;
 }
 
 .roundbox
@@ -269,8 +275,26 @@ p
 
 .part1
 {
-	padding-right: 100px;
+	padding-right: 90px;
 	display: inline-block;
-	width:150px; 
+	width:160px; 
 }
 
+
+#line,#line1
+{
+	display: none;
+	width:240px;
+	height: 2px;
+	background-color: #46AAC4;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+button
+{
+	border: none;
+	background: none;	
+	color: white;
+	font-style: inherit;
+}
